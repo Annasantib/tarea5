@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+    background: -webkit-linear-gradient(top, #CDA6F7, #CE7EF9);
+    margin: 0px;
+}
+
+#main-menu{
+    background: -webkit-linear-gradient(top, #BA6FE1, #CE7EF9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#opciones{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    padding: 1rem 1.5rem;   
+}
+
+.logo{
+    width: 90px;
+    height: 63px;
+    margin: 12px;
+    border-radius: 7px;
+}
+
+li{
+    width: 70px;
+    height: 40px;
+    background-color:#BA6FE1;
+    margin: 10px;
+    text-align: center;
+    border-radius: 9px;
+
+}
+
+h1{
+   font-family: 'Montserrat', sans-serif; 
+   font-size: 22px;
+   text-align: center;
+   font-size: 40px;
+   font-style: italic;
+}
+
+#imagenes{
+    width: 350px;
+    height: 450px;
+    border: solid #55228D;
+    border-radius: 20px;
+    margin: 22px;
+}
+
+#texto{
+    width: 350px;
+    height: 450px;
+    border: solid #55228D;
+    border-radius: 30px;
+    text-align: center;
+    background: -webkit-radial-gradient(top, #E790F2, #B680FF);
+    margin: 22px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 10px 10px #651F8A;
+    
+}
+
+#division2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+
+}
+
+#division3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    flex-direction: row-reverse;
+
+}
+footer{
+    text-align: center;
+    background-color: #B680FF;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
